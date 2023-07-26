@@ -1,0 +1,33 @@
+.body{
+    margin: 0;
+    
+    height: 100px;
+    width: 100vw;
+
+    box-sizing: border-box;
+    
+
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.logo{
+    width: 200px;
+    height: 100px;
+}
+
+.rest{
+
+    padding-right: 50px;
+    
+    width: 300px;
+    display: flex;
+    
+    >*{
+        margin: 20px;
+        font-size: larger;
+    }
+        
+    
+}
